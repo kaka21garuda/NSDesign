@@ -14,6 +14,7 @@
 		C6D127E31E4A51EB00CF1E79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6D127E11E4A51EB00CF1E79 /* LaunchScreen.storyboard */; };
 		C6D127EE1E4A51EB00CF1E79 /* NSDesignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D127ED1E4A51EB00CF1E79 /* NSDesignTests.swift */; };
 		C6D127F91E4A51EB00CF1E79 /* NSDesignUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D127F81E4A51EB00CF1E79 /* NSDesignUITests.swift */; };
+		C6D128091E4A535700CF1E79 /* CircularTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D128081E4A535700CF1E79 /* CircularTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C6D127F41E4A51EB00CF1E79 /* NSDesignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSDesignUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6D127F81E4A51EB00CF1E79 /* NSDesignUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSDesignUITests.swift; sourceTree = "<group>"; };
 		C6D127FA1E4A51EB00CF1E79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6D128081E4A535700CF1E79 /* CircularTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				C6D127DF1E4A51EB00CF1E79 /* Assets.xcassets */,
 				C6D127E11E4A51EB00CF1E79 /* LaunchScreen.storyboard */,
 				C6D127E41E4A51EB00CF1E79 /* Info.plist */,
+				C6D128081E4A535700CF1E79 /* CircularTransition.swift */,
 			);
 			path = NSDesign;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6D127DB1E4A51EB00CF1E79 /* ViewController.swift in Sources */,
+				C6D128091E4A535700CF1E79 /* CircularTransition.swift in Sources */,
 				C6D127D91E4A51EB00CF1E79 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
