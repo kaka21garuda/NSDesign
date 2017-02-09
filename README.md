@@ -14,13 +14,13 @@ NSDesign is animation library that contains ready to use of animation classes. C
 
 #### Circular Transition
 Goal: create A circle transition from one view into another
-1.  Drag and drop ```CircularTransition.swift``` into your project.
+* Drag and drop ```CircularTransition.swift``` into your project.
 
-2. Use ```UIViewControllerTransitioningDelegate``` in your initial ViewController
+* Use ```UIViewControllerTransitioningDelegate``` in your initial ViewController
 
-3. Make an object of CircularTransition
+* Make an object of CircularTransition
 
-4. add these functions to conform the protocol
+* add these functions to conform the protocol
 ``` swift
     func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
 
@@ -40,7 +40,7 @@ Goal: create A circle transition from one view into another
         return transition
     }
 ```
-5.  Go to prepare for segue to set delegate to self:
+* Go to prepare for segue to set delegate to self:
 ```swift
      override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
      if segue.identifier == "segueID" {
@@ -50,7 +50,7 @@ Goal: create A circle transition from one view into another
      }
  }
 ```
-6.  For any reference, your can checkout the sample project: ```ViewController.swift``` and ```DestinationViewController.swift```
+* For any reference, your can checkout the sample project: ```ViewController.swift``` and ```DestinationViewController.swift```
 
 [Back to top ^](#)
 
