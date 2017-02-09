@@ -20,17 +20,41 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eej-Q0-iJ0">
+                                <rect key="frame" x="144" y="490" width="86" height="86"/>
+                                <color key="backgroundColor" red="0.88671875" green="0.4425998263888889" blue="0.40684678819444442" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="86" id="WL8-x1-cGW"/>
+                                </constraints>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.56078431370000004" green="0.86274509799999999" blue="0.66274509800000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vwr-hZ-UtT"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="eej-Q0-iJ0" secondAttribute="bottom" constant="91" id="3CB-QH-b5P"/>
+                            <constraint firstItem="eej-Q0-iJ0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DBj-hY-7zf"/>
+                            <constraint firstItem="eej-Q0-iJ0" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="470" id="kjv-8z-rjR"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="button" destination="eej-Q0-iJ0" id="G7X-dh-v0n"/>
+                        <segue destination="MeH-VX-Q0L" kind="show" identifier="segueID" id="ycJ-Oo-OIt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="76" y="139"/>
+            <point key="canvasLocation" x="76" y="138.98050974512745"/>
         </scene>
-        <!--View Controller-->
+        <!--Destination View Controller-->
         <scene sceneID="6yx-Za-M9v">
             <objects>
-                <viewController id="MeH-VX-Q0L" sceneMemberID="viewController">
+                <viewController id="MeH-VX-Q0L" customClass="DestinationViewController" customModule="NSDesign" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="iIm-mi-KbQ"/>
                         <viewControllerLayoutGuide type="bottom" id="OGG-Sp-La5"/>
@@ -38,8 +62,31 @@
                     <view key="view" contentMode="scaleToFill" id="WQG-QW-GLU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Ot-pK-XVq">
+                                <rect key="frame" x="144" y="490" width="86" height="86"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="86" id="T1l-3T-S8k"/>
+                                </constraints>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.56078431370000004" green="0.86274509799999999" blue="0.66274509800000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="dismissAction:" destination="MeH-VX-Q0L" eventType="touchUpInside" id="4sB-Yg-5Fz"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.91721314191818237" green="0.52785694599151611" blue="0.48095780611038208" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="5Ot-pK-XVq" firstAttribute="top" secondItem="iIm-mi-KbQ" secondAttribute="bottom" constant="470" id="HY1-WC-eet"/>
+                            <constraint firstItem="5Ot-pK-XVq" firstAttribute="centerX" secondItem="WQG-QW-GLU" secondAttribute="centerX" id="bhM-Tu-y8k"/>
+                            <constraint firstItem="OGG-Sp-La5" firstAttribute="top" secondItem="5Ot-pK-XVq" secondAttribute="bottom" constant="91" id="roD-ZF-kzh"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="dismissButton" destination="5Ot-pK-XVq" id="wJH-Aa-WR3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cUf-p7-zFn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

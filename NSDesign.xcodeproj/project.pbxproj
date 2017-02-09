@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C6C04C7F1E4CE99F00D9C682 /* DestinationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C04C7E1E4CE99F00D9C682 /* DestinationViewController.swift */; };
 		C6D127D91E4A51EB00CF1E79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D127D81E4A51EB00CF1E79 /* AppDelegate.swift */; };
 		C6D127DB1E4A51EB00CF1E79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D127DA1E4A51EB00CF1E79 /* ViewController.swift */; };
 		C6D127DE1E4A51EB00CF1E79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6D127DC1E4A51EB00CF1E79 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C6C04C7E1E4CE99F00D9C682 /* DestinationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DestinationViewController.swift; sourceTree = "<group>"; };
 		C6D127D51E4A51EB00CF1E79 /* NSDesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSDesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6D127D81E4A51EB00CF1E79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6D127DA1E4A51EB00CF1E79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				C6D127E11E4A51EB00CF1E79 /* LaunchScreen.storyboard */,
 				C6D127E41E4A51EB00CF1E79 /* Info.plist */,
 				C6D128081E4A535700CF1E79 /* CircularTransition.swift */,
+				C6C04C7E1E4CE99F00D9C682 /* DestinationViewController.swift */,
 			);
 			path = NSDesign;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				C6D127DB1E4A51EB00CF1E79 /* ViewController.swift in Sources */,
 				C6D128091E4A535700CF1E79 /* CircularTransition.swift in Sources */,
 				C6D127D91E4A51EB00CF1E79 /* AppDelegate.swift in Sources */,
+				C6C04C7F1E4CE99F00D9C682 /* DestinationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +520,7 @@
 				C6D127FF1E4A51EB00CF1E79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C6D128001E4A51EB00CF1E79 /* Build configuration list for PBXNativeTarget "NSDesignTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +529,7 @@
 				C6D128021E4A51EB00CF1E79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C6D128031E4A51EB00CF1E79 /* Build configuration list for PBXNativeTarget "NSDesignUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +538,7 @@
 				C6D128051E4A51EB00CF1E79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
