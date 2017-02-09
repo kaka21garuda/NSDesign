@@ -41,7 +41,7 @@ Goal: create A circle transition from one view into another
     }
 ```
 5.  Go to prepare for segue to set delegate to self:
-     ```java
+```java
      override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
      if segue.identifier == "segueID" {
          let destinationViewController: DestinationViewController = segue.destination as! DestinationViewController
@@ -49,7 +49,7 @@ Goal: create A circle transition from one view into another
          destinationViewController.modalPresentationStyle = .custom
      }
  }
-    ```
+```
 6. For any reference, your can checkout the sample project: ```ViewController.swift``` and ```DestinationViewController.swift```
 
 [Back to top ^](#)
