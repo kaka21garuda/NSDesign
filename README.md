@@ -40,6 +40,7 @@ Goal: create A circle transition from one view into another
         return transition
     }
 ```
+
 5.  Go to prepare for segue to set delegate to self:
 ```java
      override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -50,7 +51,8 @@ Goal: create A circle transition from one view into another
      }
  }
 ```
-6. For any reference, your can checkout the sample project: ```ViewController.swift``` and ```DestinationViewController.swift```
+
+6.  For any reference, your can checkout the sample project: ```ViewController.swift``` and ```DestinationViewController.swift```
 
 [Back to top ^](#)
 
