@@ -21,7 +21,7 @@ Goal: create A circle transition from one view into another
 3. Make an object of CircularTransition
 
 4. add these functions to conform the protocol
-``` java
+``` swift
     func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
 
         transition.transitionMode = .present
@@ -42,7 +42,7 @@ Goal: create A circle transition from one view into another
 ```
 
 5.  Go to prepare for segue to set delegate to self:
-```java
+```swift
      override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
      if segue.identifier == "segueID" {
          let destinationViewController: DestinationViewController = segue.destination as! DestinationViewController
