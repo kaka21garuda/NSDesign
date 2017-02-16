@@ -25,7 +25,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        button.layer.cornerRadius = button.frame.size.width / 2
+        // button.layer.cornerRadius = button.frame.size.width / 2
+        
+        // let skill = SkillLoderView(frame: CGRect(x: <#T##Double#>, y: <#T##Double#>, width: <#T##Double#>, height: <#T##Double#>)
+        
         
     }
 

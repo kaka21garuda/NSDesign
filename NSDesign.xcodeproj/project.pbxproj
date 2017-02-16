@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C62DD3011E54328400829E66 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62DD3001E54328400829E66 /* LoadingViewController.swift */; };
 		C62F4B771E53867400AE00BE /* SkillLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62F4B761E53867400AE00BE /* SkillLoaderView.swift */; };
 		C6C04C7F1E4CE99F00D9C682 /* DestinationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C04C7E1E4CE99F00D9C682 /* DestinationViewController.swift */; };
 		C6D127D91E4A51EB00CF1E79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D127D81E4A51EB00CF1E79 /* AppDelegate.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C62DD3001E54328400829E66 /* LoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
 		C62F4B761E53867400AE00BE /* SkillLoaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkillLoaderView.swift; sourceTree = "<group>"; };
 		C6C04C7E1E4CE99F00D9C682 /* DestinationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DestinationViewController.swift; sourceTree = "<group>"; };
 		C6D127D51E4A51EB00CF1E79 /* NSDesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSDesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,6 +114,7 @@
 				C6D128081E4A535700CF1E79 /* CircularTransition.swift */,
 				C6C04C7E1E4CE99F00D9C682 /* DestinationViewController.swift */,
 				C62F4B761E53867400AE00BE /* SkillLoaderView.swift */,
+				C62DD3001E54328400829E66 /* LoadingViewController.swift */,
 			);
 			path = NSDesign;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 				C6D128091E4A535700CF1E79 /* CircularTransition.swift in Sources */,
 				C6D127D91E4A51EB00CF1E79 /* AppDelegate.swift in Sources */,
 				C6C04C7F1E4CE99F00D9C682 /* DestinationViewController.swift in Sources */,
+				C62DD3011E54328400829E66 /* LoadingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
