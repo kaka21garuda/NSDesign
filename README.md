@@ -2,12 +2,23 @@
 
 NSDesign is animation library that contains ready to use of animation classes. Check out the animations below and Enjoy!
 
-![giphycircular](https://cloud.githubusercontent.com/assets/17153572/22798083/8b77bf06-eeb5-11e6-8fa1-8d1f5dd2a933.gif)
+
+
+<img style="float: left;" src="https://cloud.githubusercontent.com/assets/17153572/22798083/8b77bf06-eeb5-11e6-8fa1-8d1f5dd2a933.gif">
+
+<img style="float: center;" src="https://cloud.githubusercontent.com/assets/17153572/23037578/b7ff41c6-f43b-11e6-9337-4a3ea4306759.gif">
+
+
+
+
+
 
 ---
 ## Table of Contents
 * [Animations](#app-design)
   * [Circular Transition](#objective)
+  * [Loading Animation](#objective)
+
 
 ---
 ### How to use it
@@ -51,6 +62,11 @@ Goal: create A circle transition from one view into another
  }
 ```
 * For any reference, your can checkout the sample project: ```ViewController.swift``` and ```DestinationViewController.swift```
+
+#### Loading animation
+* Drag and drop ```SkillLoaderView.swift```
+* Subclass your view with SkillLoaderView
+* Modify the animation as you wish from the storyboard
 
 [Back to top ^](#)
 
